@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Example Plugin
 
 [![Total Downloads](https://img.shields.io/packagist/dt/veronalabs/plugin.svg)](https://packagist.org/packages/veronalabs/plugin)
@@ -49,3 +50,6 @@ npm run start
 "watch": Watches for changes in the /assets/src/scss/ folder and run "dev" command on every change
 "start": Runs "dev" and "watch" commands concurrently
 ```
+=======
+A testing project for Verona Labs
+>>>>>>> 6b46b849835c9da720becc18f6e73d6f0a62c97a
