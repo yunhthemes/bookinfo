@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "Project-Id-Version: Example Plugin - Developed by yungthemes\n"
-"POT-Creation-Date: 2024-08-21 00:21+0330\n"
-"PO-Revision-Date: 2024-08-21 00:21+0330\n"
+"POT-Creation-Date: 2024-08-26 14:42+0330\n"
+"PO-Revision-Date: 2024-08-26 14:41+0330\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -21,186 +21,36 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
-#: plugin.php:180
-msgctxt "post type general name"
-msgid "Books"
-msgstr ""
-
-#: plugin.php:181
-msgctxt "post type singular name"
-msgid "Book"
-msgstr ""
-
-#: plugin.php:182
-msgctxt "admin menu"
-msgid "Books"
-msgstr ""
-
-#: plugin.php:183
-msgctxt "add new on admin bar"
-msgid "Book"
-msgstr ""
-
-#: plugin.php:184
-msgctxt "book"
-msgid "Add New"
-msgstr ""
-
-#: plugin.php:185
-msgid "Add New Book"
-msgstr ""
-
-#: plugin.php:186
-msgid "New Book"
-msgstr ""
-
-#: plugin.php:187
-msgid "Edit Book"
-msgstr ""
-
-#: plugin.php:188
-msgid "View Book"
-msgstr ""
-
-#: plugin.php:189
-msgid "All Books"
-msgstr ""
-
-#: plugin.php:190
-msgid "Search Books"
-msgstr ""
-
-#: plugin.php:191
-msgid "Parent Books:"
-msgstr ""
-
-#: plugin.php:192
-msgid "No books found."
-msgstr ""
-
-#: plugin.php:193
-msgid "No books found in Trash."
-msgstr ""
-
-#: plugin.php:221
-msgctxt "taxonomy general name"
-msgid "Publishers"
-msgstr ""
-
-#: plugin.php:222
-msgctxt "taxonomy singular name"
-msgid "Publisher"
-msgstr ""
-
-#: plugin.php:223
-msgid "Search Publishers"
-msgstr ""
-
-#: plugin.php:224
-msgid "All Publishers"
-msgstr ""
-
-#: plugin.php:225
-msgid "Parent Publisher"
-msgstr ""
-
-#: plugin.php:226
-msgid "Parent Publisher:"
-msgstr ""
-
-#: plugin.php:227
-msgid "Edit Publisher"
-msgstr ""
-
-#: plugin.php:228
-msgid "Update Publisher"
-msgstr ""
-
-#: plugin.php:229
-msgid "Add New Publisher"
-msgstr ""
-
-#: plugin.php:230
-msgid "New Publisher Name"
-msgstr ""
-
-#: plugin.php:231
-msgid "Publisher"
-msgstr ""
-
-#: plugin.php:246
-msgctxt "taxonomy general name"
-msgid "Authors"
-msgstr ""
-
-#: plugin.php:247
-msgctxt "taxonomy singular name"
-msgid "Author"
-msgstr ""
-
-#: plugin.php:248
-msgid "Search Authors"
-msgstr ""
-
-#: plugin.php:249
-msgid "All Authors"
-msgstr ""
-
-#: plugin.php:250
-msgid "Parent Author"
-msgstr ""
-
-#: plugin.php:251
-msgid "Parent Author:"
-msgstr ""
-
-#: plugin.php:252
-msgid "Edit Author"
-msgstr ""
-
-#: plugin.php:253
-msgid "Update Author"
-msgstr ""
-
-#: plugin.php:254
-msgid "Add New Author"
-msgstr ""
-
-#: plugin.php:255
-msgid "New Author Name"
-msgstr ""
-
-#: plugin.php:256
-msgid "Author"
-msgstr ""
-
-#: plugin.php:277
-msgid "Book ISBN"
-msgstr ""
-
-#: plugin.php:294
-msgid "ISBN"
-msgstr ""
-
-#: plugin.php:356 plugin.php:357 plugin.php:372
+#: src/AdminDisplay.php:11 src/AdminDisplay.php:12 src/AdminDisplay.php:21
 msgid "Books Info"
 msgstr ""
 
-#: vendor/veronalabs/logger-wp/src/Service/AdminLogViewer.php:148
-msgid "Delete log"
+#: src/CustomPostType.php:10
+msgid "Books"
 msgstr ""
 
-#: vendor/veronalabs/logger-wp/src/Service/AdminLogViewer.php:159
-#, php-format
-msgid "%1$s at %2$s %3$s"
+#: src/CustomPostType.php:11
+msgid "Book"
 msgstr ""
 
-#: vendor/veronalabs/logger-wp/src/Service/AdminLogViewer.php:168
-msgid "View"
+#: src/CustomPostType.php:22
+msgid "Publishers"
 msgstr ""
 
-#: vendor/veronalabs/logger-wp/src/Service/AdminLogViewer.php:181
-msgid "There are currently no logs to view."
+#: src/CustomPostType.php:23
+msgid "Publisher"
+msgstr ""
+
+#: src/CustomPostType.php:31
+msgid "Authors"
+msgstr ""
+
+#: src/CustomPostType.php:32
+msgid "Author"
+msgstr ""
+
+#: src/CustomPostType.php:45 src/CustomPostType.php:55
+msgid "ISBN Number"
 msgstr ""
 
 #. Plugin Name of the plugin/theme
